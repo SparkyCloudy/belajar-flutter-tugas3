@@ -9,6 +9,10 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 123, 11, 200),
       ),
+      body: const Center(
+        child: Text("Hello World",
+            style: TextStyle(fontSize: 40, color: Colors.redAccent)),
+      ),
     );
   }
 }
